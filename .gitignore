@@ -1,0 +1,21 @@
+# ---- 密钥与本地配置（永不提交）----
+.env
+*.env.local
+
+# ---- 个人求职材料（不对外公开，仅保留在本地）----
+剧情志-简历写法*.md
+
+# ---- 运行时状态与派生数据 ----
+# RAG 索引约 9.6MB 且可由 storylog_rag.py 全量重建，不入版本管理。
+# 想先跑起来看效果：先执行一次 `python storylog_rag.py --build`。
+.workbuddy/
+.backups/
+tests/.tmp/
+__pycache__/
+*.pyc
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

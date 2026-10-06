@@ -1,0 +1,9 @@
+{
+  "exportDate": "2026-10-04T09:00:00Z",
+  "reviews": {
+    "g-p-1": {"rating": 5, "status": "completed", "review": "蒙德的自由主题很打动我，风与诗歌的意象贯穿始终，温迪的塑造太妙了", "date": "2026-08-15"},
+    "g-1-1": {"rating": 4, "status": "completed", "review": "璃月开篇稍显平淡但契约主题有意思，钟离初登场的铺垫很足", "date": "2026-08-20"},
+    "g-2-1": {"rating": 2, "status": "dropped", "review": "稻妻第一章节奏拖沓，锁国设定展开太慢，看得有点累", "date": "2026-09-01"},
+    "g-2-2": {"rating": 0, "status": "planned", "review": "", "date": ""}
+  }
+}

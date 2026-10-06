@@ -1,0 +1,146 @@
+[
+  {
+    "id": "E01",
+    "question": "钟离是谁？",
+    "expectTools": ["search_story"],
+    "mustInclude": ["钟离"],
+    "expectRefusal": false,
+    "category": "检索-角色"
+  },
+  {
+    "id": "E02",
+    "question": "秧秧的剧情讲了什么？",
+    "expectTools": ["search_story"],
+    "mustInclude": ["秧秧"],
+    "expectRefusal": false,
+    "category": "检索-角色"
+  },
+  {
+    "id": "E03",
+    "question": "漂泊者是什么身份？",
+    "expectTools": ["search_story"],
+    "mustInclude": ["漂泊者"],
+    "expectRefusal": false,
+    "category": "检索-角色"
+  },
+  {
+    "id": "E04",
+    "question": "战双里 41 长路归航这段剧情讲了什么？",
+    "expectTools": ["search_story"],
+    "mustInclude": ["长路"],
+    "expectRefusal": false,
+    "category": "检索-章节"
+  },
+  {
+    "id": "E05",
+    "question": "鸣潮的玄翎谣是什么？",
+    "expectTools": ["search_story"],
+    "mustInclude": ["玄翎"],
+    "expectRefusal": false,
+    "category": "检索-事件"
+  },
+  {
+    "id": "E06",
+    "question": "原神第七章有哪些幕？",
+    "expectTools": ["get_chapters"],
+    "mustInclude": ["第七章"],
+    "expectRefusal": false,
+    "category": "目录-版本"
+  },
+  {
+    "id": "E07",
+    "question": "鸣潮第四章包含哪些章节？",
+    "expectTools": ["get_chapters"],
+    "mustInclude": ["第四章"],
+    "expectRefusal": false,
+    "category": "目录-版本"
+  },
+  {
+    "id": "E08",
+    "question": "战双的浮点纪实收录了哪些剧情？",
+    "expectTools": ["get_chapters"],
+    "mustInclude": ["浮点纪实"],
+    "expectRefusal": false,
+    "category": "目录-分类"
+  },
+  {
+    "id": "E09",
+    "question": "原神一共有多少个版本条目？",
+    "expectTools": ["get_chapters"],
+    "mustInclude": ["版本"],
+    "expectRefusal": false,
+    "category": "目录-统计"
+  },
+  {
+    "id": "E10",
+    "question": "我记录过哪些剧情？",
+    "expectTools": ["get_my_reviews"],
+    "mustInclude": ["记录"],
+    "expectRefusal": false,
+    "category": "个人记录"
+  },
+  {
+    "id": "E11",
+    "question": "我评分最高的剧情是哪一部？给了几分？",
+    "expectTools": ["get_my_reviews"],
+    "mustInclude": ["5"],
+    "expectRefusal": false,
+    "category": "个人记录"
+  },
+  {
+    "id": "E12",
+    "question": "我写的评价里提到过哪首歌？",
+    "expectTools": ["get_my_reviews"],
+    "mustInclude": ["玄翎谣"],
+    "expectRefusal": false,
+    "category": "个人记录"
+  },
+  {
+    "id": "E13",
+    "question": "剧情知识库里一共有多少内容？覆盖了哪几款游戏？",
+    "expectTools": ["get_library_stats"],
+    "mustInclude": ["片段"],
+    "expectRefusal": false,
+    "category": "库统计"
+  },
+  {
+    "id": "E14",
+    "question": "三款游戏的 wiki 上次更新检测分别是什么时候？",
+    "expectTools": ["get_update_status"],
+    "mustInclude": ["检测"],
+    "expectRefusal": false,
+    "category": "更新状态"
+  },
+  {
+    "id": "E15",
+    "question": "你好，你能做什么？",
+    "expectTools": [],
+    "mustInclude": [],
+    "expectRefusal": false,
+    "category": "无需工具"
+  },
+  {
+    "id": "E16",
+    "question": "明日方舟的主角阿米娅有什么能力？",
+    "expectTools": [],
+    "mustInclude": [],
+    "expectRefusal": true,
+    "category": "库外-应拒答"
+  },
+  {
+    "id": "E17",
+    "question": "绝区零的剧情主线讲了什么？",
+    "expectTools": [],
+    "mustInclude": [],
+    "expectRefusal": true,
+    "category": "库外-应拒答"
+  },
+  {
+    "id": "E18",
+    "question": "原神和鸣潮这两款游戏，各自的剧情结构是怎样的？",
+    "expectTools": ["get_chapters"],
+    "mustInclude": ["原神"],
+    "expectRefusal": false,
+    "category": "多工具-跨游戏"
+  }
+]
